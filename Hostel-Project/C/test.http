@@ -1,0 +1,15 @@
+POST http://localhost:5000/api/complaints/submit
+Content-Type: application/json
+
+{
+  "name": "Test User",
+  "room": "101",
+  "phone": "9876543210",
+  "email": "test@gmail.com",
+  "hostelType": "Boys",
+  "hostelName": "Shipra",
+  "otherHostel": "",
+  "time": "9 AM - 11 AM",
+  "details": "Test complaint",
+  "category": "Plumbing"
+}
